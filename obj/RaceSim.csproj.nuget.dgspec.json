@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LearnC#\\RaceSim\\RaceSim.csproj": {}
+    "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim.csproj": {}
   },
   "projects": {
-    "C:\\LearnC#\\RaceSim\\RaceSim.csproj": {
+    "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LearnC#\\RaceSim\\RaceSim.csproj",
+        "projectUniqueName": "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim.csproj",
         "projectName": "RaceSim",
-        "projectPath": "C:\\LearnC#\\RaceSim\\RaceSim.csproj",
+        "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim.csproj",
         "packagesPath": "C:\\Users\\jmccr\\.nuget\\packages\\",
-        "outputPath": "C:\\LearnC#\\RaceSim\\obj\\",
+        "outputPath": "C:\\LearnC#\\RaceSim-Windesheim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
