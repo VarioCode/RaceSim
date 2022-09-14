@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83862288-70d8-4abd-a565-f5736d66db82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim-Windesheim.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim-Windesheim.dir/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="83862288-70d8-4abd-a565-f5736d66db82" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,6 +54,7 @@
       <workItem from="1662980579183" duration="503000" />
       <workItem from="1663103878482" duration="147000" />
       <workItem from="1663104080782" duration="105000" />
+      <workItem from="1663138174706" duration="29000" />
     </task>
     <servers />
   </component>
