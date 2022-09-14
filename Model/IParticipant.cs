@@ -1,4 +1,4 @@
-﻿namespace RaceSim;
+﻿namespace Model;
 
 public interface IParticipant
 {

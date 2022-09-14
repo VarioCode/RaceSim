@@ -5,27 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b7cb1f7-8aa9-424e-97f6-daabe0ddb7fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IParticipant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamColors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Competition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectionData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectionTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnCSharp/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnCSharp/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnCSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnCSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LearnCSharp/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/FileContentIndex/379ee76f-5196-40ca-b08f-324f34fbac4d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/FileContentIndex/5f59ff6f-7f41-4cb7-b69b-ada09cde19b4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/FileContentIndex/d1666c42-178f-43c7-83f9-606ccf6d2d7f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/FileContentIndex/ef0b91ca-8826-4602-919e-13741797ce51.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LearnCSharp/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LearnCSharp/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LearnCSharp/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/learncsharp.metadata.v5" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/learncsharp.metadata.v5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/learncsharp.projects.v5" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/learncsharp.projects.v5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/ControllerTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/ControllerTest.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControllerTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControllerTest/Usings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/Usings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IEquipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IEquipment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnCSharp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LearnCSharp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/RaceSim.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/RaceSim.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/RaceSim.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/RaceSim.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/RaceSim.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/RaceSim.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/RaceSim.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/RaceSim.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "discord-application",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -92,7 +105,8 @@
       <workItem from="1663104379165" duration="104000" />
       <workItem from="1663138252942" duration="59000" />
       <workItem from="1663142213958" duration="78000" />
-      <workItem from="1663144703132" duration="6010000" />
+      <workItem from="1663144703132" duration="6050000" />
+      <workItem from="1663170453048" duration="2696000" />
     </task>
     <servers />
   </component>
