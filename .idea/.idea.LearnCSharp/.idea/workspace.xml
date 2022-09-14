@@ -5,48 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b7cb1f7-8aa9-424e-97f6-daabe0ddb7fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IEquipment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IParticipant.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamColors.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnCSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnCSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/RaceSimTest.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/UnitTest1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/Usings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/RaceSimTest.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/RaceSimTest.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/RaceSimTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/RaceSimTest.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/RaceSimTest.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/Debug/net6.0/RaceSimTest.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/RaceSimTest.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/RaceSimTest.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/RaceSimTest.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSimTest/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/Usings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/Usings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IEquipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IEquipment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnCSharp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LearnCSharp.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ControllerTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EjLk54iYwMVmxhDmv5ZkoXPPfa" />
   <component name="ProjectLevelVcsManager">
@@ -99,7 +92,7 @@
       <workItem from="1663104379165" duration="104000" />
       <workItem from="1663138252942" duration="59000" />
       <workItem from="1663142213958" duration="78000" />
-      <workItem from="1663144703132" duration="4112000" />
+      <workItem from="1663144703132" duration="6010000" />
     </task>
     <servers />
   </component>

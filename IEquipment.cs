@@ -1,6 +1,6 @@
 ﻿namespace RaceSim;
 
-public interface IEquipment
+public interface IEquipment : IParticipant
 {
     public int Quality { get; set; }
     public int Performance { get; set; }
