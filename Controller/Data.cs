@@ -5,8 +5,8 @@ namespace Controller;
 public static class Data
 {
     
-    public static Competition Competition { get; set; }
-    public static Race CurrentRace { get; set; }
+    public static Competition? Competition { get; set; }
+    public static Race? CurrentRace { get; set; }
 
     public static void Initialize()
     {
@@ -19,7 +19,7 @@ public static class Data
     public static void AddParticipants()
     {
         Random rnd = new Random();
-        int newNumberOfParticipants = rnd.Next(1, 5);
+        int newNumberOfParticipants = rnd.Next(2, 5);
 
         for (int i = 0; i < newNumberOfParticipants; i++)
         {
@@ -38,12 +38,13 @@ public static class Data
     public static void AddTracks()
     {
         Random rnd = new Random();
-        int newNumberOfTracks = rnd.Next(1, 5);
+        int newNumberOfTracks = rnd.Next(2, 6);
         
         for (int i = 0; i < newNumberOfTracks; i++)
         {
-            int trackLenght = rnd.Next(1, 20);
+            int trackLenght = rnd.Next(10, 30);
             Array values = Enum.GetValues(typeof(SectionTypes));
+            
             ArrayList newTrack = new ArrayList();
 
             for (int a = 0; a < trackLenght; a++)
@@ -51,21 +52,25 @@ public static class Data
                 newTrack.Add(values.GetValue(rnd.Next(values.Length)));
             }
 
-            Competition.Tracks.Enqueue(new Track($"Track {i++}", newTrack.ToArray()));
+            Competition!.Tracks.Enqueue(new Track($"Track {i++}", newTrack.ToArray()));
         }
     }
 
     public static void NextRace()
     {
-        Track nextTrack = Competition.NextTrack();
+        Track nextTrack = Competition!.NextTrack();
         if (nextTrack == null)
         {
             Console.WriteLine("Wanna go again? Press Enter.");
             if (Console.ReadKey().Key == ConsoleKey.Enter)
             {
                 Initialize();
-                CurrentRace = new Race(nextTrack, Competition.Participants);
+                CurrentRace = new Race(Competition!.NextTrack(), Competition.Participants);
             }
+        }
+        else
+        {
+            CurrentRace = new Race(nextTrack, Competition.Participants);
         }
         
         
