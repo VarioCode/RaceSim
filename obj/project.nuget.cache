@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8yrLCKs548C3gS4iN1BsRZwq08Wtts4w2zbxovF+9R/dEB0m1JWAo+gUyy4F3M+moS4t/U60KuSmPu8tp+C/KQ==",
+  "dgSpecHash": "CcsvrifeAsA6ygmNJLf8xEfBIbqtA7jH6Qx0VZpHjrI9DvuE2+gfz8u69T21VkSq5YdyEXFpA7cDBOsbcx3LSg==",
   "success": true,
   "projectFilePath": "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jmccr\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\microsoft.codecoverage\\17.3.1\\microsoft.codecoverage.17.3.1.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.1\\microsoft.net.test.sdk.17.3.1.nupkg.sha512",
@@ -15,6 +16,8 @@
     "C:\\Users\\jmccr\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\jmccr\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\jmccr\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\jmccr\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
