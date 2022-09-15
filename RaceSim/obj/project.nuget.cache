@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jnBkqahbu6DXG7l1YDUN1OZN25o66tvd+6z0L+YuMML6e1p9+A6+0EVttwarkYsI5AF9MbKfzAEUT5cSHG0qDA==",
+  "dgSpecHash": "brsPQ+2ATQ1oJYxfK5oQ0R5QpobCipP5/liQudnZRuqCBlRi4iaBMGY/SKEUEVzuJPsg4SDon8FImZlJzNoXnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jmccr\\RiderProjects\\RaceSim\\RaceSim\\RaceSim.csproj",
+  "projectFilePath": "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim\\RaceSim.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

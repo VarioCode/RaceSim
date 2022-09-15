@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmccr\\RiderProjects\\RaceSim\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\LearnC#\\RaceSim-Windesheim\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\jmccr\\RiderProjects\\RaceSim\\Model\\Model.csproj",
+      "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\jmccr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmccr\\RiderProjects\\RaceSim\\Model\\obj\\",
+      "outputPath": "C:\\LearnC#\\RaceSim-Windesheim\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -12,7 +12,7 @@ public class Competition
     }
 
     public Track NextTrack() // Going to the next track
-    { 
+    {
         Tracks.Dequeue();
         return Tracks.Peek();
     }

@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.ComponentModel.Design;
 using Model;
 namespace Controller;
 
@@ -44,13 +45,26 @@ public static class Data
         {
             int trackLenght = rnd.Next(10, 30);
             Array values = Enum.GetValues(typeof(SectionTypes));
+            ArrayList trackValues = new ArrayList();
+
+            foreach (SelectionTypes value in values) // removing values Finish and StartGrid from the array
+            {
+                if (value == (SelectionTypes)SectionTypes.Finish || value == (SelectionTypes)SectionTypes.StartGrid)
+                {
+                    continue;
+                }
+                trackValues.Add(value);
+            }
             
             ArrayList newTrack = new ArrayList();
+            newTrack.Add(SectionTypes.StartGrid);
 
             for (int a = 0; a < trackLenght; a++)
             {
-                newTrack.Add(values.GetValue(rnd.Next(values.Length)));
+                newTrack.Add(trackValues[rnd.Next(trackValues.Count)]);
             }
+            
+            newTrack.Add(SectionTypes.Finish);
 
             Competition!.Tracks.Enqueue(new Track($"Track {i++}", newTrack.ToArray()));
         }
