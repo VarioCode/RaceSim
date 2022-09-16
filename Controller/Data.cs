@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.ComponentModel.Design;
+using System.Security.AccessControl;
+using System.Threading.Channels;
 using Model;
 namespace Controller;
 
@@ -32,7 +34,7 @@ public static class Data
             newDriver.Equipment = new Car();
             newDriver.Equipment.Name = nameof(newDriver.Name);
 
-            Competition.Participants.Add(newDriver);
+            Competition!.Participants.Add(newDriver);
         }
     }
 
@@ -56,17 +58,20 @@ public static class Data
                 trackValues.Add(value);
             }
             
-            ArrayList newTrack = new ArrayList();
+            List<SectionTypes> newTrack = new List<SectionTypes>();
             newTrack.Add(SectionTypes.StartGrid);
-
+            
+            // Console.WriteLine($"lenght {trackLenght}");
+            // Console.WriteLine($"count {trackValues.Count}");
             for (int a = 0; a < trackLenght; a++)
             {
-                newTrack.Add(trackValues[rnd.Next(trackValues.Count)]);
+                // Console.WriteLine($"int is {a}");
+                newTrack.Add((SectionTypes) trackValues[rnd.Next(trackValues.Count)]);
             }
             
             newTrack.Add(SectionTypes.Finish);
-
-            Competition!.Tracks.Enqueue(new Track($"Track {i++}", newTrack.ToArray()));
+            
+            Competition!.Tracks.Enqueue(new Track($"Track {i++}", (newTrack.ToArray())));
         }
     }
 
