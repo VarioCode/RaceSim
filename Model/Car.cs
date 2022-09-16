@@ -10,6 +10,9 @@ public class Car : IEquipment
     public int Performance { get; set; }
     public int Speed { get; set; }
     public bool IsBroken { get; set; }
-    
-    // public Car(string name)
+
+    public Car()
+    {
+        
+    }
 }
