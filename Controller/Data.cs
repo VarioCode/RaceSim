@@ -26,14 +26,15 @@ public static class Data
 
         for (int i = 0; i < newNumberOfParticipants; i++)
         {
+            int driverNumber = i + 1;
             Driver newDriver = new Driver();
             Array values = Enum.GetValues(typeof(TeamColors));
+
             
-            newDriver.Name = $"Driver {i++}";
+            newDriver.Name = $"Driver {driverNumber}";
             newDriver.TeamColor = (TeamColors)values.GetValue(rnd.Next(values.Length))!;
             newDriver.Equipment = new Car();
             newDriver.Equipment.Name = nameof(newDriver.Name);
-
             Competition!.Participants.Add(newDriver);
         }
     }
@@ -66,12 +67,12 @@ public static class Data
             for (int a = 0; a < trackLenght; a++)
             {
                 // Console.WriteLine($"int is {a}");
-                newTrack.Add((SectionTypes) trackValues[rnd.Next(trackValues.Count)]);
+                newTrack.Add((SectionTypes) trackValues[rnd.Next(trackValues.Count)]!);
             }
             
             newTrack.Add(SectionTypes.Finish);
-            
-            Competition!.Tracks.Enqueue(new Track($"Track {i++}", (newTrack.ToArray())));
+            int trackNumber = i + 1;
+            Competition!.Tracks.Enqueue(new Track($"Track {trackNumber}", (newTrack.ToArray())));
         }
     }
 

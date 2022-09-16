@@ -8,48 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c9b16fb-3b84-4871-a8d7-95025a5f4534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oefeningen/Boot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Data.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/bin/Debug/ControllerTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/ControllerTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/bin/Debug/ControllerTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/ControllerTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Competition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Competition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Track.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/ref/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/ref/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/refint/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/refint/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/ControllerTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/ControllerTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/ControllerTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/ControllerTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +146,7 @@
       <workItem from="1663264434396" duration="4006000" />
       <workItem from="1663280542650" duration="508000" />
       <workItem from="1663309002456" duration="4679000" />
+      <workItem from="1663313789241" duration="2052000" />
     </task>
     <servers />
   </component>
