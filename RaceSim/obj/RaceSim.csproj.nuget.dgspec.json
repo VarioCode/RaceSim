@@ -4,21 +4,6 @@
     "C:\\LearnC#\\RaceSim-Windesheim\\RaceSim\\RaceSim.csproj": {}
   },
   "projects": {
-    "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj",
-        "projectName": "ControllerTest",
-        "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
     "C:\\LearnC#\\RaceSim-Windesheim\\Controller\\Controller.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -172,9 +157,6 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj": {
-                "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj"
-              },
               "C:\\LearnC#\\RaceSim-Windesheim\\Controller\\Controller.csproj": {
                 "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\Controller\\Controller.csproj"
               },

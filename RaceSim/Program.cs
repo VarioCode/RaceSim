@@ -7,7 +7,12 @@ namespace RaceSim
         {
             Data.Initialize();
             Data.NextRace();
-            Console.WriteLine(Data.CurrentRace.Track.Name);
+            Console.WriteLine(Data.CurrentRace!.Track.Name);
+
+            for (; ;)
+            {
+                Thread.Sleep(100);
+            }
         }
     }
 }

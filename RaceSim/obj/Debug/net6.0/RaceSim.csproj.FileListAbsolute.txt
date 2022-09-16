@@ -28,13 +28,9 @@ C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\RaceSim.runtimeconfig.jso
 C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\RaceSim.dll
 C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\RaceSim.pdb
 C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\Controller.dll
-C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\ControllerTest.dll
 C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\Model.dll
-C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\nunit.framework.dll
-C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\ControllerTest.pdb
 C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\Controller.pdb
 C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\Model.pdb
-C:\LearnC#\RaceSim-Windesheim\RaceSim\bin\Debug\net6.0\nunit.framework.xml
 C:\LearnC#\RaceSim-Windesheim\RaceSim\obj\Debug\net6.0\RaceSim.csproj.AssemblyReference.cache
 C:\LearnC#\RaceSim-Windesheim\RaceSim\obj\Debug\net6.0\RaceSim.GeneratedMSBuildEditorConfig.editorconfig
 C:\LearnC#\RaceSim-Windesheim\RaceSim\obj\Debug\net6.0\RaceSim.AssemblyInfoInputs.cache

@@ -15,15 +15,6 @@
           "bin/placeholder/Controller.dll": {}
         }
       },
-      "ControllerTest/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/ControllerTest.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ControllerTest.dll": {}
-        }
-      },
       "Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -42,11 +33,6 @@
       "path": "../Controller/Controller.csproj",
       "msbuildProject": "../Controller/Controller.csproj"
     },
-    "ControllerTest/1.0.0": {
-      "type": "project",
-      "path": "../ControllerTest/ControllerTest.csproj",
-      "msbuildProject": "../ControllerTest/ControllerTest.csproj"
-    },
     "Model/1.0.0": {
       "type": "project",
       "path": "../Model/Model.csproj",
@@ -56,7 +42,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Controller >= 1.0.0",
-      "ControllerTest >= 1.0.0",
       "Model >= 1.0.0"
     ]
   },
@@ -93,9 +78,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj": {
-              "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\ControllerTest\\ControllerTest.csproj"
-            },
             "C:\\LearnC#\\RaceSim-Windesheim\\Controller\\Controller.csproj": {
               "projectPath": "C:\\LearnC#\\RaceSim-Windesheim\\Controller\\Controller.csproj"
             },
