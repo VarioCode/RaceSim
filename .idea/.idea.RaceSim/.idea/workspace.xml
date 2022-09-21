@@ -9,14 +9,33 @@
   <component name="ChangeListManager">
     <list default="true" id="3c9b16fb-3b84-4871-a8d7-95025a5f4534" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Controller.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Controller.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/RaceSim.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/RaceSim.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +44,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Controller/Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controller/Race.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllerTest/Usings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Competition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/SectionTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Track.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RaceSim/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/71b9427355fb9aa212609ad121457576c666049b5d23896fcf5e3e15f96bb/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d82e70c4654f974cc6248aad1cee512afee4f94673ee55f686398dd368e0b9d3/Array.cs" root0="FORCE_HIGHLIGHTING" />
@@ -154,6 +181,7 @@
       <workItem from="1663737689066" duration="603000" />
       <workItem from="1663738592551" duration="1086000" />
       <workItem from="1663739723511" duration="183000" />
+      <workItem from="1663739997423" duration="1936000" />
     </task>
     <servers />
   </component>
