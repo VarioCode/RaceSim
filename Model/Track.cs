@@ -8,21 +8,27 @@ public class Track
     public Track(string name, SectionTypes[] sections)
     {
         Name = name;
+        Sections = ConvertToLinkedList(sections);
+    }
 
+    public LinkedList<Section> ConvertToLinkedList(SectionTypes[] sections)
+    {
+        LinkedList<Section> placeholderSections = new LinkedList<Section>();
         foreach (SectionTypes section in sections)
         {
             try
             {
                 Section newSection = new Section();
                 newSection.SectionType = section;
-                Sections?.AddLast(newSection);
+                placeholderSections?.AddLast(newSection);
             }
             catch (NullReferenceException e)
             {
                 Console.WriteLine(e);
                 throw;
             }
-            
         }
+
+        return placeholderSections!;
     }
 }

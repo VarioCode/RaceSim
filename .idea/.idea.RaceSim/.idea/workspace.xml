@@ -8,194 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c9b16fb-3b84-4871-a8d7-95025a5f4534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/Usings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Controller.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ControllerTest.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ControllerTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ControllerTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ControllerTest.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/CoverletSourceRootsMapping" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/NUnit3.TestAdapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/NUnit3.TestAdapter.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/nunit.engine.api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/nunit.engine.core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/nunit.engine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/testcentric.engine.metadata.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/testhost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ref/ControllerTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/refint/ControllerTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RaceSim.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/ControllerTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/ControllerTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/Tests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/bin/Debug/ControllerTest.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/bin/Debug/ControllerTest.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/bin/Debug/nunit.framework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/bin/Debug/nunit.framework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/ControllerTest.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/_IsIncrementalBuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Competition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Competition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/Boot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/Oefeningen.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/Oefeningen.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/Oefeningen.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/Oefeningen.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/Oefeningen.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/Oefeningen.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Debug/net6.0/Oefeningen.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Oefeningen.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Oefeningen.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/Oefeningen.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/RaceSim.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/RaceSim.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/ControllerTest.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/ControllerTest.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/nunit.framework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/nunit.framework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/RaceSim.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/RaceSim.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.RaceSim">
     <configuration name="Controller" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -329,7 +150,10 @@
       <workItem from="1663264434396" duration="4006000" />
       <workItem from="1663280542650" duration="508000" />
       <workItem from="1663309002456" duration="4679000" />
-      <workItem from="1663313789241" duration="9868000" />
+      <workItem from="1663313789241" duration="11301000" />
+      <workItem from="1663737689066" duration="603000" />
+      <workItem from="1663738592551" duration="1086000" />
+      <workItem from="1663739723511" duration="183000" />
     </task>
     <servers />
   </component>
@@ -385,24 +209,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs</url>
-          <line>44</line>
-          <properties documentPath="C:\LearnC#\RaceSim-Windesheim\ControllerTest\Model_Competition_NextTrackShould.cs" initialLine="44" containingFunctionPresentation="method 'NextTrack_TwoInQueue_ReturnNextTrack'">
-            <startOffsets>
-              <option value="1246" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1247" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

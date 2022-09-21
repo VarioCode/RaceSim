@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using Model;
+﻿using Model;
 
 namespace ControllerTest;
 
