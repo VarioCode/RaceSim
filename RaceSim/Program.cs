@@ -7,8 +7,10 @@ namespace RaceSim
         {
             Data.Initialize();
             Data.NextRace();
-            Console.WriteLine(Data.CurrentRace!.Track.Name);
-
+            Viz.DrawTrack(Data.CurrentRace!.Track);
+            
+            Viz.testPrint();
+            
             for (; ;)
             {
                 Thread.Sleep(100);
