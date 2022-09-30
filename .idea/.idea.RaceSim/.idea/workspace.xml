@@ -8,26 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c9b16fb-3b84-4871-a8d7-95025a5f4534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Controller.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Controller.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/ControllerTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/ref/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/ref/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/refint/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/refint/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/Direction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Direction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Competition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Competition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/ref/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/ref/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/refint/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/refint/Model.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/Viz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Viz.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" afterDir="false" />
@@ -35,20 +36,13 @@
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/ref/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/ref/RaceSim.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/refint/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/refint/RaceSim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/RaceSim.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/RaceSim.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,9 @@
     <setting file="file://$PROJECT_DIR$/Model/SectionTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Model/Track.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RaceSim/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56996bd5b7b025988834f7db72d610de6637f12f9a6dc6f25950f7f158ef3fc4/ConsolePal.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/71b9427355fb9aa212609ad121457576c666049b5d23896fcf5e3e15f96bb/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf408839e35535896e3625c8578c2bfb7bf56ef7ab2c4549ae59c3a19db9ae/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d82e70c4654f974cc6248aad1cee512afee4f94673ee55f686398dd368e0b9d3/Array.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/df71358f7b7337a1eee3a65abe6d678dd9a065e256b8cc3fd44a2949754/Object.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,7 +88,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -195,7 +191,21 @@
       <workItem from="1663739723511" duration="183000" />
       <workItem from="1663739997423" duration="1936000" />
       <workItem from="1663760410969" duration="5928000" />
-      <workItem from="1663923053367" duration="7139000" />
+      <workItem from="1663923053367" duration="7735000" />
+      <workItem from="1663961140586" duration="1133000" />
+      <workItem from="1664059149575" duration="605000" />
+      <workItem from="1664116522310" duration="2376000" />
+      <workItem from="1664146878787" duration="762000" />
+      <workItem from="1664188406232" duration="898000" />
+      <workItem from="1664197889173" duration="1556000" />
+      <workItem from="1664262043922" duration="146000" />
+      <workItem from="1664262975800" duration="1189000" />
+      <workItem from="1664315522688" duration="626000" />
+      <workItem from="1664354009446" duration="303000" />
+      <workItem from="1664354470255" duration="7824000" />
+      <workItem from="1664366843853" duration="2193000" />
+      <workItem from="1664483022934" duration="2911000" />
+      <workItem from="1664526827772" duration="3928000" />
     </task>
     <servers />
   </component>
@@ -277,5 +287,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
