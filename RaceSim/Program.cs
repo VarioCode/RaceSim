@@ -11,7 +11,9 @@ namespace RaceSim
                 new[]
                 {
                     SectionTypes.StartGrid, 
-                    SectionTypes.Straight, 
+                    SectionTypes.Straight,
+                    SectionTypes.Straight,
+                    SectionTypes.Straight,
                     SectionTypes.RightCorner,
                     SectionTypes.RightCorner,
                     SectionTypes.Straight, 
@@ -21,7 +23,9 @@ namespace RaceSim
                 });
             Data.Initialize();
             Data.NextRace();
+            string placeholder = Viz.SetDrivers("", Data.Competition.Participants[0], Data.Competition.Participants[1]);
             Viz.DrawTrack(indi500);
+            
             
             for (; ;)
             {
