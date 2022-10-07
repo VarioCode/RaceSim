@@ -9,7 +9,7 @@ public class Race
     public List<IParticipant> Participants { get; set; }
     public DateTime StartTime { get; set; }
     public System.Timers.Timer timer;
-    public event EventHandler DriversChanged;
+    public event EventHandler<DriversChangedEventArgs> DriversChanged;
     private Random _random;
     private Dictionary<Section, SectionData> _positions;
     private EventHandler<ElapsedEventArgs> OnTimedEvent;
@@ -21,8 +21,8 @@ public class Race
         _positions = new Dictionary<Section, SectionData>();
         _random = new Random(DateTime.Now.Millisecond);
         timer = new System.Timers.Timer(500);
-        timer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
         SetStartPosition();
+        DriversChanged.Invoke(this, new DriversChangedEventArgs().);
     }
     
     public void Start()

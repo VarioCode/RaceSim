@@ -84,6 +84,11 @@ public static class Viz
         
     }
 
+    public static void EventHandler(DriversChangedEventArgs e)
+    {
+        DrawTrack(e.Track);
+    }
+
     public static void DrawTrack(Track track)
     {
         Console.WriteLine($"Welcome to {track.Name}");
@@ -232,11 +237,5 @@ public static class Viz
                 }
             }
         }
-    }
-    
-    public static void EventHandler(DriversChangedEventArgs e)
-    {
-        DrawTrack(e.Track);
-        PlaceDriversOnTrack();
     }
 }
