@@ -235,28 +235,22 @@ public static class Viz
                         PrintTrackPart(_straightHortizontal);
                         if (_direction == Direction.East)
                         {
-                            // _x += 7;
                             ChangeCursor("x", false);
                         } else if (_direction == Direction.West)
                         {
                             ChangeCursor("x", true);
-                            // _x -= 7;
                         }
-                        // Console.SetCursorPosition(_x, _y);
                     } else if (_direction == Direction.North || _direction == Direction.South)
                     {
                         PrintTrackPart(_straightVertical);
                         if (_direction == Direction.South)
                         {
-                            // _y += 7;
                             ChangeCursor("y", false);
                         }
                         if (_direction == Direction.North)
                         {
                             ChangeCursor("y", true);
-                            // _y -= 7;
                         }
-                        // Console.SetCursorPosition(_x, _y);
                     }
                     break;
                 case SectionTypes.LeftCorner:
