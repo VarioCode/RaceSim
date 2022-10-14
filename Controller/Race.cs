@@ -5,10 +5,11 @@ namespace Controller;
 
 public class Race
 {
-    public Track Track { get; set; }
-    public List<IParticipant> Participants { get; set; }
-    public DateTime StartTime { get; set; }
-    public System.Timers.Timer timer;
+    private Track Track { get; set; }
+    private List<IParticipant> Participants { get; set; }
+    private DateTime StartTime { get; set; }
+    
+    private System.Timers.Timer _timer;
     public event EventHandler<DriversChangedEventArgs> DriversChanged;
     private Random _random;
     private Dictionary<Section, SectionData> _positions;
@@ -20,16 +21,19 @@ public class Race
         Participants = participants;
         _positions = new Dictionary<Section, SectionData>();
         _random = new Random(DateTime.Now.Millisecond);
-        timer = new System.Timers.Timer(500);
+        _timer = new System.Timers.Timer(500);
         SetStartPosition();
-        DriversChanged.Invoke(this, new DriversChangedEventArgs().);
     }
-    
     public void Start()
     {
-        timer.Start();
+        DriversChangedEvent();
+        _timer.Start();
     }
     
+    public void DriversChangedEvent()
+    {
+        DriversChanged.Invoke(this, new DriversChangedEventArgs() { Track = this.Track });
+    }
     public SectionData GetSectionData(Section section)
     {
         SectionData sectionData;

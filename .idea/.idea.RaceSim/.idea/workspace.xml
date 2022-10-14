@@ -9,9 +9,39 @@
   <component name="ChangeListManager">
     <list default="true" id="3c9b16fb-3b84-4871-a8d7-95025a5f4534" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Data.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Race.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/DriversChangedEventArgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DriversChangedEventArgs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/ref/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/ref/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/refint/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/refint/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/IEquipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/IEquipment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/ref/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/ref/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net6.0/refint/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net6.0/refint/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/Viz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Viz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/ref/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/ref/RaceSim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/refint/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/refint/RaceSim.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/RaceSim/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56996bd5b7b025988834f7db72d610de6637f12f9a6dc6f25950f7f158ef3fc4/ConsolePal.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/71b9427355fb9aa212609ad121457576c666049b5d23896fcf5e3e15f96bb/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/974fa14c57bab8fe29f1bddd39b1a6548b9cc8cf9e0ef5e670c2407a56d9/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b9ec86353372ef6d4b862ec3552934310c2b674b5b263f7ee508468e028ab84/EventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf408839e35535896e3625c8578c2bfb7bf56ef7ab2c4549ae59c3a19db9ae/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="FORCE_HIGHLIGHTING" />
@@ -187,6 +218,19 @@
       <workItem from="1664989815562" duration="590000" />
       <workItem from="1665147844759" duration="677000" />
       <workItem from="1665148716365" duration="2447000" />
+      <workItem from="1665279026743" duration="24000" />
+      <workItem from="1665280384302" duration="1369000" />
+      <workItem from="1665495318369" duration="595000" />
+      <workItem from="1665497419474" duration="780000" />
+      <workItem from="1665502903094" duration="1028000" />
+      <workItem from="1665556479219" duration="901000" />
+      <workItem from="1665557414654" duration="2752000" />
+      <workItem from="1665571173163" duration="8324000" />
+      <workItem from="1665610827649" duration="1782000" />
+      <workItem from="1665672647444" duration="1891000" />
+      <workItem from="1665686599817" duration="421000" />
+      <workItem from="1665697732346" duration="1917000" />
+      <workItem from="1665748261984" duration="7662000" />
     </task>
     <servers />
   </component>

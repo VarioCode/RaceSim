@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿using Controller;
 using Model;
 
 namespace RaceSim;
@@ -6,70 +6,187 @@ namespace RaceSim;
 public static class Viz
 {
     private static int _x;
-    private static int _y = 7;
-    private static string DisplayNames;
+    private static int _y = 14;
+    private static string? _displayNames;
+    private static int _driversCount;
     
     #region graphics
       
     // Left Corners
     private static string[] _cornerLeftEast =
-        {"      |", "      |", "      |" , "      |" , "      |", "      |" , "------/" };
+        {
+            "|     |", 
+            "      |", 
+            "      |" , 
+            "      |" , 
+            "      |", 
+            "      |" , 
+            "------/" 
+        };
     private static string[] _cornerLeftNorth =
-        {"------\\", "      |",  "      |", "      |", "      |", "      |", "      |"};
+    {
+        "------\\",
+        "      |",
+        "      |",
+        "      |",
+        "      |",
+        "      |",
+        "|     |"
+    };
     private static string[] _cornerLeftWest =
-        {"/------", "|      ", "|      ", "|      ", "|      ", "|      ", "|      "};
+        {
+            "/------",
+            "|      ",
+            "|      ",
+            "|      ",
+            "|      ",
+            "|      ", 
+            "|     |"};
     private static string[] _cornerLeftSouth =
-        {"|      ", "|      ", "|      ", "|      ", "|      ", "|      ", "\\------"};
+        {
+            "|     |", 
+            "|      ", 
+            "|      ", 
+            "|      ", 
+            "|      ", 
+            "|      ", 
+            "\\------"};
 
     // Right corners
     private static string[] _cornerRightSouth =
-        {"      |", "      |", "      |", "      |", "      |", "      |", "------/"};
+        {
+            "|     |", 
+            "      |", 
+            "      |", 
+            "      |", 
+            "      |", 
+            "      |", 
+            "------/"};
     private static string[] _cornerRightEast =
-        {"------\\", "      |", "      |", "      |", "      |", "      |", "      |"};
+    {
+        "------\\", 
+        "      |", 
+        "      |", 
+        "      |", 
+        "      |", 
+        "      |", 
+        "|     |"
+    };
     private static string[] _cornerRightNorth =
-        {"/------", "|      ", "|      ", "|      ", "|      ", "|      ", "|      "};
+    {
+        "/------", 
+        "|      ", 
+        "|      ", 
+        "|      ", 
+        "|      ", 
+        "|      ", 
+        "|     |"
+    };
     private static string[] _cornerRightWest =
-        {"|      ", "|      ", "|      ", "|      ", "|      ", "|      ", "\\------"};
+    {
+        "|     |", 
+        "|      ", 
+        "|      ", 
+        "|      ", 
+        "|      ", 
+        "|      ", 
+        "\\------"
+    };
 
     // Straights
-    private static string[] _straightHortizontal = 
-        {"-------", "       ", "       ", "       ", "       ", "       ", "-------"};
-    private static string[] _straightVertical = 
-        {"|     |", "|     |", "|     |", "|     |", "|     |", "|     |", "|     |"};
+    private static string[] _straightHortizontal =
+    {
+        "-------", 
+        "       ", 
+        "       ", 
+        "       ", 
+        "       ", 
+        "       ", 
+        "-------"
+    };
+    private static string[] _straightVertical =
+    {
+        "|     |", 
+        "|     |", 
+        "|     |", 
+        "|     |", 
+        "|     |",
+        "|     |",
+        "|     |"
+    };
     
     // Special cases
-    private static string[] _startGrid = 
-        {"-------", "       ", "  !#   ", "       ", "  !#   ", "       ", "-------"};
-    private static string[] _finishHorizontal = 
-        {"------", "  #   ", "  #   ", "  #   ", "  #   ", "  #   ", "------" };
+    private static string[] _startGrid =
+    {
+        "-------", 
+        "       ", 
+        "  !#   ", 
+        "       ", 
+        "  !#   ", 
+        "       ", 
+        "-------"
+    };
+    private static string[] _finishHorizontal =
+    {
+        "-------", 
+        "   #   ", 
+        "   #   ", 
+        "   #   ", 
+        "   #   ", 
+        "   #   ", 
+        "-------"
+    };
     private static string[] _finishVertical =
-        {"|     |", "|     |", "|     |", "|     |", "#######", "|     |", "|     |"};
+    {
+        "|     |", 
+        "|     |", 
+        "|     |", 
+        "|     |", 
+        "#######", 
+        "|     |", 
+        "|     |"
+    };
 
-    private static Direction _direction = Direction.East;
+    private static Direction _direction = Direction.South;
 
     #endregion
 
     #region HelperFunctions
 
-    public static int CurrentX()
+    private static void ChangeCursor(string xORy, bool minus)
     {
-        return Console.GetCursorPosition().Left;
-    }
-
-    public static int CurrentY()
-    {
-        return Console.GetCursorPosition().Top;
+        if (xORy == "y" || xORy == "Y")
+        {
+            if (minus)
+            {
+                _y -= 7;
+            }
+            else
+            {
+                _y += 7;
+            }
+            
+        }
+        else if (xORy == "x" || xORy == "X")
+        {
+            if (minus)
+            {
+                _x -= 7;
+            }
+            else
+            {
+                _x += 7;
+            }
+        }
+        Console.SetCursorPosition(_x, _y);
     }
     
-    private static void PrintTrackPart(string[] arraytobeprinted)
+    private static void PrintTrackPart(string[] arraytobeprinted) //TODO: Refactor to print as scan lines instead of proceduraly
     {
         int ytest = _y;
         for (int i = 0; i < arraytobeprinted.Length; i++)
         {
-            for (int j = 0; j < arraytobeprinted[i].Length; j++)
-            {
-                Console.Write(arraytobeprinted[i][j]);
-            }
+            Console.Write(arraytobeprinted[i]);
             ytest += 1;
             Console.SetCursorPosition(_x, ytest);
             
@@ -84,24 +201,32 @@ public static class Viz
         
     }
 
-    public static void EventHandler(DriversChangedEventArgs e)
+    public static void main(Race currentRace)
+    {
+        currentRace.DriversChanged += onDriverChanged;
+        
+    }
+    public static void onDriverChanged(object sender, DriversChangedEventArgs e)
     {
         DrawTrack(e.Track);
     }
 
     public static void DrawTrack(Track track)
     {
+        Console.WriteLine();
         Console.WriteLine($"Welcome to {track.Name}");
         Console.WriteLine("=========================");
+        
+        Console.SetCursorPosition(_x,_y);
 
         foreach (Section section in track.Sections)
         {
-            switch (section.SectionType)
+            switch (section.SectionType) //TODO: put all the logic in a function to clean up the switch case
             {
                 case SectionTypes.StartGrid:
                     PlaceDriversOnTrack();
                     PrintTrackPart(_startGrid);
-                    _x = +7;
+                    _x += 7;
                     Console.SetCursorPosition(_x, _y);
                     break;
                 case SectionTypes.Straight:
@@ -110,52 +235,50 @@ public static class Viz
                         PrintTrackPart(_straightHortizontal);
                         if (_direction == Direction.East)
                         {
-                            _x += 7;
-                        }
-                        if (_direction == Direction.West)
+                            // _x += 7;
+                            ChangeCursor("x", false);
+                        } else if (_direction == Direction.West)
                         {
-                            _x -= 7;
+                            ChangeCursor("x", true);
+                            // _x -= 7;
                         }
-                        Console.SetCursorPosition(_x, _y);
+                        // Console.SetCursorPosition(_x, _y);
                     } else if (_direction == Direction.North || _direction == Direction.South)
                     {
                         PrintTrackPart(_straightVertical);
-                        if (_direction == Direction.East)
+                        if (_direction == Direction.South)
                         {
-                            _y += 7;
+                            // _y += 7;
+                            ChangeCursor("y", false);
                         }
-                        if (_direction == Direction.West)
+                        if (_direction == Direction.North)
                         {
-                            _y -= 7;
-
+                            ChangeCursor("y", true);
+                            // _y -= 7;
                         }
-                        Console.SetCursorPosition(_x, _y);
+                        // Console.SetCursorPosition(_x, _y);
                     }
                     break;
                 case SectionTypes.LeftCorner:
                     if (_direction == Direction.East)
                     {
                         PrintTrackPart(_cornerLeftEast);
-                        _y -= 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("y", true);
                         _direction = Direction.North;
                     } else if (_direction == Direction.North)
                     {
                         PrintTrackPart(_cornerLeftNorth);
-                        _x -= 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("x", true);
                         _direction = Direction.West;
                     } else if (_direction == Direction.South)
                     {
                         PrintTrackPart(_cornerLeftSouth);
-                        _x += 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("x", false);
                         _direction = Direction.East;
                     } else if (_direction == Direction.West)
                     {
                         PrintTrackPart(_cornerLeftWest);
-                        _y += 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("y", false);
                         _direction = Direction.South;
                     }
                     break;
@@ -163,26 +286,22 @@ public static class Viz
                     if (_direction == Direction.East)
                     {
                         PrintTrackPart(_cornerRightEast);
-                        _y += 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("y", false);
                         _direction = Direction.South;
                     } else if (_direction == Direction.North)
                     {
                         PrintTrackPart(_cornerRightNorth);
-                        _y += 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("y", false);
                         _direction = Direction.East;
                     } else if (_direction == Direction.South)
                     {
                         PrintTrackPart(_cornerRightSouth);
-                        _x -= 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("x", true);
                         _direction = Direction.West;
                     } else if (_direction == Direction.West)
                     {
                         PrintTrackPart(_cornerRightWest);
-                        _y -= 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("y", true);
                         _direction = Direction.North;
                     }
                     break;
@@ -190,38 +309,36 @@ public static class Viz
                     if (_direction == Direction.East || _direction == Direction.West)
                     {
                         PrintTrackPart(_finishHorizontal);
-                        _x += 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("x", false);
                     } else if (_direction == Direction.North || _direction == Direction.South)
                     {
                         PrintTrackPart(_finishVertical);
-                        _y += 7;
-                        Console.SetCursorPosition(_x, _y);
+                        ChangeCursor("y", false);
                     }
                     break;
             }
         }
     }
 
-    public static string SetDrivers(string strings, IParticipant driver1, IParticipant driver2)
+    public static string? SetDrivers(string strings, List<IParticipant> participants) // TODO: Make Scalable
     {
-        // creating placeholder strings for driver names.
-        string driver1displayname = driver1.Name;
-        string driver2displayname = driver2.Name;
-
-        // Removing "Driver" from the driver names.
-        driver1displayname = driver1displayname.Replace("Driver ", "");
-        driver2displayname = driver2displayname.Replace("Driver ", "");
-
-        DisplayNames = driver1displayname + " " + driver2displayname;
+        // convert list to array
+        IParticipant[] drivers = participants.ToArray();
         
-        return DisplayNames;
+        // creating placeholder strings for driver names.
+        for (int i = 0; i < drivers.Length; i++)
+        {
+            _driversCount += 1;
+            _displayNames += " " + drivers[i].Name.Replace("Driver ", "");
+        }
+
+        return _displayNames;
 
     }
 
-    public static void PlaceDriversOnTrack()
+    public static void PlaceDriversOnTrack() //TODO: Make Scalable
     {
-        string[] viznames = DisplayNames.Split(" ");
+        string[] viznames = _displayNames.Split(" ");
         int index = 0;
         for (int i = 0; i < _startGrid.Length; i++)
         {
@@ -229,10 +346,10 @@ public static class Viz
             {
                 if (_startGrid[i][j] == '!')
                 {
-                    if (DisplayNames != null)
+                    if (_displayNames != null)
                     {
-                        _startGrid[i] = _startGrid[i].Replace("!", viznames[index]);
                         index++;
+                        _startGrid[i] = _startGrid[i].Replace("!", viznames[index]);
                     }
                 }
             }
