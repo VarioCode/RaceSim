@@ -9,6 +9,8 @@ public static class Viz
     private static int _y = 14;
     private static string? _displayNames;
     private static int _driversCount;
+    private static int _dirversPrinted; 
+    private static int _dirversNotPrinted;
     
     #region graphics
       
@@ -157,31 +159,18 @@ public static class Viz
     {
         if (xORy == "y" || xORy == "Y")
         {
-            if (minus)
-            {
-                _y -= 7;
-            }
-            else
-            {
-                _y += 7;
-            }
-            
+            if (minus) { _y -= 7; }
+            else { _y += 7; }
         }
         else if (xORy == "x" || xORy == "X")
         {
-            if (minus)
-            {
-                _x -= 7;
-            }
-            else
-            {
-                _x += 7;
-            }
+            if (minus) { _x -= 7; }
+            else { _x += 7; }
         }
         Console.SetCursorPosition(_x, _y);
     }
     
-    private static void PrintTrackPart(string[] arraytobeprinted) //TODO: Refactor to print as scan lines instead of proceduraly
+    private static void PrintTrackPart(string[] arraytobeprinted)
     {
         int ytest = _y;
         for (int i = 0; i < arraytobeprinted.Length; i++)
@@ -189,7 +178,6 @@ public static class Viz
             Console.Write(arraytobeprinted[i]);
             ytest += 1;
             Console.SetCursorPosition(_x, ytest);
-            
         }
     }
 
@@ -221,7 +209,7 @@ public static class Viz
 
         foreach (Section section in track.Sections)
         {
-            switch (section.SectionType) //TODO: put all the logic in a function to clean up the switch case
+            switch (section.SectionType)
             {
                 case SectionTypes.StartGrid:
                     PlaceDriversOnTrack();
@@ -325,28 +313,30 @@ public static class Viz
             _driversCount += 1;
             _displayNames += " " + drivers[i].Name.Replace("Driver ", "");
         }
-
         return _displayNames;
-
     }
 
-    public static void PlaceDriversOnTrack() //TODO: Make Scalable
+    public static string[] PlaceDriversOnTrack() //TODO: Make Scalable
     {
         string[] viznames = _displayNames.Split(" ");
-        int index = 0;
-        for (int i = 0; i < _startGrid.Length; i++)
+        int index = _driversCount - _dirversNotPrinted;
+        string[] grid = _startGrid;
+        for (int i = 0; i < grid.Length; i++)
         {
-            for (int j = 0; j < _startGrid[i].Length; j++)
+            for (int j = 0; j < grid[i].Length; j++)
             {
-                if (_startGrid[i][j] == '!')
+                if (grid[i][j] == '!')
                 {
                     if (_displayNames != null)
                     {
                         index++;
-                        _startGrid[i] = _startGrid[i].Replace("!", viznames[index]);
+                        grid[i] = grid[i].Replace("!", viznames[index]);
+                        _dirversPrinted++;
                     }
                 }
             }
         }
+
+        return grid;
     }
 }
