@@ -10,8 +10,8 @@ namespace RaceSim
             
             Data.Initialize();
             Data.NextRace();
-            string? placeholder = Viz.SetDrivers("", Data.Competition.Participants);
-            Viz.main(Data.CurrentRace);
+            string? placeholder = Viz.SetDrivers(Data.Competition.Participants);
+            Viz.Main(Data.CurrentRace);
             // Viz.DrawTrack(indi500);
             Data.CurrentRace.Start();
             

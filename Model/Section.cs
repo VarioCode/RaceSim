@@ -4,8 +4,8 @@ public class Section
 {
     public SectionTypes SectionType { get; set; }
 
-    public Section()
-    {
-        
-    }
+    // public Section(SectionTypes sectionType)
+    // {
+    //     SectionType = sectionType;
+    // }
 }

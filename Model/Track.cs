@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Model;
+﻿namespace Model;
 
 public class Track
 {

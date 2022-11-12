@@ -5,7 +5,6 @@ namespace Controller;
 
 public static class Data
 {
-    
     public static Competition? Competition { get; set; }
     public static Race? CurrentRace { get; set; }
 

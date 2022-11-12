@@ -11,9 +11,9 @@ public class Race
     
     private System.Timers.Timer _timer;
     public event EventHandler<DriversChangedEventArgs> DriversChanged;
+    public event EventHandler<ElapsedEventArgs> TimerElapsed; 
     private Random _random;
     private Dictionary<Section, SectionData> _positions;
-    private EventHandler<ElapsedEventArgs> OnTimedEvent;
 
     public Race(Track track, List<IParticipant> participants)
     {
@@ -21,7 +21,7 @@ public class Race
         Participants = participants;
         _positions = new Dictionary<Section, SectionData>();
         _random = new Random(DateTime.Now.Millisecond);
-        _timer = new System.Timers.Timer(500);
+        _timer = new System.Timers.Timer(10000);
         SetStartPosition();
     }
     public void Start()
@@ -34,6 +34,7 @@ public class Race
     {
         DriversChanged.Invoke(this, new DriversChangedEventArgs() { Track = this.Track });
     }
+    
     public SectionData GetSectionData(Section section)
     {
         SectionData sectionData;
@@ -76,8 +77,9 @@ public class Race
     {
         foreach (IParticipant participant in Participants)
         {
-            participant.Equipment.Performance = _random.Next();
-            participant.Equipment.Quality = _random.Next();
+            participant.Equipment.Performance = _random.Next(1,10);
+            participant.Equipment.Quality = _random.Next(1,10);
+            participant.Equipment.Speed = _random.Next(1,50);
         }
     }
 }

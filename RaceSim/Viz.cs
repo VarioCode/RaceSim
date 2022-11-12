@@ -1,4 +1,6 @@
-﻿using Controller;
+﻿using System.Data;
+using System.Timers;
+using Controller;
 using Model;
 
 namespace RaceSim;
@@ -7,11 +9,18 @@ public static class Viz
 {
     private static int _x;
     private static int _y = 14;
+    private static int tempx;
+    private static int tempy;
     private static string? _displayNames;
+    private static IParticipant[] drivers;
     private static int _driversCount;
     private static int _dirversPrinted; 
     private static int _dirversNotPrinted;
+    private static Track currentTrack;
+    private static Race currentRace;
     
+    public static Section[] _currentDriverPosition;
+
     #region graphics
       
     // Left Corners
@@ -180,6 +189,40 @@ public static class Viz
             Console.SetCursorPosition(_x, ytest);
         }
     }
+    private static void MoveDrivers(object sender, EventArgs args)
+    {
+        if (sender is Race)
+        {
+            Race race = (Race) sender;
+            
+            for (int i = 0; i < drivers.Length-1; i++)
+            {
+                if (drivers[i] is Driver)
+                {
+                    Driver driver = (Driver) drivers[i];
+                    if (!driver.Equipment.IsBroken)
+                    {
+                        int distanceTraveled = driver.Equipment.Speed * driver.Equipment.Performance;
+                        SectionData data = race.GetSectionData(_currentDriverPosition[i]);
+                        if (data.Left == driver)
+                        {
+                            data.DistanceLeft += distanceTraveled;
+                            if (data.DistanceLeft >= 100)
+                            {
+                                data.DistanceLeft = 0;
+                                currentTrack
+                            }
+                        } else if (data.Right == driver)
+                        {
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
 
     #endregion
     
@@ -189,18 +232,20 @@ public static class Viz
         
     }
 
-    public static void main(Race currentRace)
+    public static void Main(Race currentRace)
     {
-        currentRace.DriversChanged += onDriverChanged;
-        
+        currentRace.DriversChanged += OnDriverChanged;
+        currentRace.TimerElapsed += MoveDrivers;
+        Viz.currentRace = currentRace;
     }
-    public static void onDriverChanged(object sender, DriversChangedEventArgs e)
+    public static void OnDriverChanged(object sender, DriversChangedEventArgs e)
     {
         DrawTrack(e.Track);
     }
 
     public static void DrawTrack(Track track)
     {
+        currentTrack = track;
         Console.WriteLine();
         Console.WriteLine($"Welcome to {track.Name}");
         Console.WriteLine("=========================");
@@ -214,8 +259,8 @@ public static class Viz
                 case SectionTypes.StartGrid:
                     PlaceDriversOnTrack();
                     PrintTrackPart(_startGrid);
-                    _x += 7;
-                    Console.SetCursorPosition(_x, _y);
+                    ChangeCursor("x", false);
+                    _currentDriverPosition = new []{section, section};
                     break;
                 case SectionTypes.Straight:
                     if (_direction == Direction.East || _direction == Direction.West)
@@ -302,14 +347,22 @@ public static class Viz
         }
     }
 
-    public static string? SetDrivers(string strings, List<IParticipant> participants) // TODO: Make Scalable
+    public static string? SetDrivers(List<IParticipant> participants) // TODO: Make Scalable
     {
         // convert list to array
-        IParticipant[] drivers = participants.ToArray();
+        drivers = participants.ToArray();
         
         // creating placeholder strings for driver names.
         for (int i = 0; i < drivers.Length; i++)
         {
+            SectionData data = currentRace.GetSectionData(_currentDriverPosition[i]);
+            if (data.Left == null)
+            {
+                data.Left = (Driver) drivers[i];
+            } else if (data.Right == null)
+            {
+                data.Right = (Driver)drivers[i];
+            }
             _driversCount += 1;
             _displayNames += " " + drivers[i].Name.Replace("Driver ", "");
         }
@@ -319,7 +372,8 @@ public static class Viz
     public static string[] PlaceDriversOnTrack() //TODO: Make Scalable
     {
         string[] viznames = _displayNames.Split(" ");
-        int index = _driversCount - _dirversNotPrinted;
+        // int index = _driversCount - _dirversNotPrinted;
+        int index = 0;
         string[] grid = _startGrid;
         for (int i = 0; i < grid.Length; i++)
         {
