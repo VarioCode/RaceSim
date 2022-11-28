@@ -4,7 +4,7 @@ public class Track
 {
     public string Name { get; set; }
     public LinkedList<Section> Sections { get; set; }
-
+    
     public Track(string name, SectionTypes[] sections)
     {
         Name = name;
@@ -30,5 +30,33 @@ public class Track
         }
 
         return placeholderSections!;
+    }
+
+    public Section[] StartPositions()
+    {
+        int count = 0;
+        
+        // Count the number of sections that are a starting grid
+        for (int i =  0; i < Sections.Count; i++)
+        {
+            if (Sections.ElementAt(i).SectionType == SectionTypes.StartGrid)
+            {
+                count += 1;
+            }
+        }
+        
+        // Create an array of sections that are a starting grid
+        Section[] startPositions = new Section[count];
+        int index = 0;
+        for (int i = 0; i < Sections.Count; i++)
+        {
+            if (Sections.ElementAt(i).SectionType == SectionTypes.StartGrid)
+            {
+                startPositions[index] = Sections.ElementAt(i);
+                index += 1;
+            }
+        }
+
+        return startPositions;
     }
 }

@@ -9,15 +9,29 @@
   <component name="ChangeListManager">
     <list default="true" id="3c9b16fb-3b84-4871-a8d7-95025a5f4534" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Race.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/ref/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/ref/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/refint/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/obj/Debug/net6.0/refint/Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/Debug/net6.0/ControllerTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Section.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Section.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/SectionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/SectionData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Track.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/Viz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/Viz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/Controller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/bin/Debug/net6.0/RaceSim.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/RaceSim.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/ref/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/ref/RaceSim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/refint/RaceSim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RaceSim/obj/Debug/net6.0/refint/RaceSim.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +39,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Controller/Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controller/Race.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllerTest/Model_Competition_NextTrackShould.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllerTest/Usings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Competition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/SectionTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Track.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RaceSim/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56996bd5b7b025988834f7db72d610de6637f12f9a6dc6f25950f7f158ef3fc4/ConsolePal.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/71b9427355fb9aa212609ad121457576c666049b5d23896fcf5e3e15f96bb/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/974fa14c57bab8fe29f1bddd39b1a6548b9cc8cf9e0ef5e670c2407a56d9/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b9ec86353372ef6d4b862ec3552934310c2b674b5b263f7ee508468e028ab84/EventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf408839e35535896e3625c8578c2bfb7bf56ef7ab2c4549ae59c3a19db9ae/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d82e70c4654f974cc6248aad1cee512afee4f94673ee55f686398dd368e0b9d3/Array.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db1a2f3394c1931cc084d12fde748c7de38a76c7ecea8ba51bccbbc96eebef23/ElapsedEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/df71358f7b7337a1eee3a65abe6d678dd9a065e256b8cc3fd44a2949754/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f2103c576aef635626cde2a8c1caee4f5b23ca724d7d5f17e13aeb1e04cad/Random.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -52,8 +79,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.34812286&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -154,6 +182,73 @@
       <workItem from="1663737689066" duration="603000" />
       <workItem from="1663738592551" duration="1086000" />
       <workItem from="1663739723511" duration="183000" />
+      <workItem from="1663739997423" duration="1936000" />
+      <workItem from="1663760410969" duration="5928000" />
+      <workItem from="1663923053367" duration="7735000" />
+      <workItem from="1663961140586" duration="1133000" />
+      <workItem from="1664059149575" duration="605000" />
+      <workItem from="1664116522310" duration="2376000" />
+      <workItem from="1664146878787" duration="762000" />
+      <workItem from="1664188406232" duration="898000" />
+      <workItem from="1664197889173" duration="1556000" />
+      <workItem from="1664262043922" duration="146000" />
+      <workItem from="1664262975800" duration="1189000" />
+      <workItem from="1664315522688" duration="626000" />
+      <workItem from="1664354009446" duration="303000" />
+      <workItem from="1664354470255" duration="7824000" />
+      <workItem from="1664366843853" duration="2193000" />
+      <workItem from="1664483022934" duration="2911000" />
+      <workItem from="1664526827772" duration="8150000" />
+      <workItem from="1664560944765" duration="596000" />
+      <workItem from="1664782171111" duration="3075000" />
+      <workItem from="1664786961732" duration="3549000" />
+      <workItem from="1664798967585" duration="4663000" />
+      <workItem from="1664814593155" duration="256000" />
+      <workItem from="1664814890886" duration="2092000" />
+      <workItem from="1664860754576" duration="2185000" />
+      <workItem from="1664951102442" duration="11645000" />
+      <workItem from="1664989815562" duration="590000" />
+      <workItem from="1665147844759" duration="677000" />
+      <workItem from="1665148716365" duration="2447000" />
+      <workItem from="1665279026743" duration="24000" />
+      <workItem from="1665280384302" duration="1369000" />
+      <workItem from="1665495318369" duration="595000" />
+      <workItem from="1665497419474" duration="780000" />
+      <workItem from="1665502903094" duration="1028000" />
+      <workItem from="1665556479219" duration="901000" />
+      <workItem from="1665557414654" duration="2752000" />
+      <workItem from="1665571173163" duration="8324000" />
+      <workItem from="1665610827649" duration="1782000" />
+      <workItem from="1665672647444" duration="1891000" />
+      <workItem from="1665686599817" duration="421000" />
+      <workItem from="1665697732346" duration="1917000" />
+      <workItem from="1665748261984" duration="9393000" />
+      <workItem from="1666393103126" duration="596000" />
+      <workItem from="1666547991403" duration="304000" />
+      <workItem from="1666548372367" duration="2000" />
+      <workItem from="1666548421871" duration="594000" />
+      <workItem from="1666604380353" duration="3154000" />
+      <workItem from="1666650206070" duration="13000" />
+      <workItem from="1666771050415" duration="11000" />
+      <workItem from="1666771551479" duration="476000" />
+      <workItem from="1666773484112" duration="3822000" />
+      <workItem from="1666788156786" duration="1454000" />
+      <workItem from="1666803417005" duration="674000" />
+      <workItem from="1666871743902" duration="118000" />
+      <workItem from="1666872710786" duration="7019000" />
+      <workItem from="1666894610913" duration="647000" />
+      <workItem from="1666897480020" duration="2117000" />
+      <workItem from="1667231243527" duration="22000" />
+      <workItem from="1667245964653" duration="69000" />
+      <workItem from="1667337243083" duration="28000" />
+      <workItem from="1667506840882" duration="482000" />
+      <workItem from="1667507679375" duration="31000" />
+      <workItem from="1667675364018" duration="594000" />
+      <workItem from="1667834778178" duration="773000" />
+      <workItem from="1667919757871" duration="705000" />
+      <workItem from="1667946441075" duration="825000" />
+      <workItem from="1668008270456" duration="821000" />
+      <workItem from="1668031979612" duration="11789000" />
     </task>
     <servers />
   </component>
@@ -164,30 +259,56 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="241" />
+    <option name="symbolColumnWidth" value="368" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 8% 207/226" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 8% 207/226" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Model 14% 73/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 8% 207/226" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Model 14% 73/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Model 14% 73/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 8% 207/226" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Model 14% 73/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Model 14% 73/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Competition 80% 3/15" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Competition 93% 1/15" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Model 44% 50/90" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Competition 93% 1/15" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Participants 50% 1/2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="RaceSim 0% 67/67" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="RaceSim 0% 67/67" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="RaceSim 0% 67/67" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 24% 221/291" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="RaceSim 0% 67/67" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="RaceSim 0% 67/67" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Program 0% 8/8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -209,5 +330,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

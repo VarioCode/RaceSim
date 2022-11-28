@@ -11,7 +11,7 @@ public class Competition
         Tracks = new Queue<Track>();
     }
 
-    public Track NextTrack() // Going to the next track
+    public Track? NextTrack() // Going to the next track
     {
         // Track current = Tracks.Peek();
         if (Tracks.Count > 0)
@@ -21,6 +21,4 @@ public class Competition
 
         return null;
     }
-
-
 }

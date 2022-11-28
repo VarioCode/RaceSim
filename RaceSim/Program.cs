@@ -1,14 +1,21 @@
 ﻿using Controller;
+using Model;
+
 namespace RaceSim
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            
             Data.Initialize();
             Data.NextRace();
-            Console.WriteLine(Data.CurrentRace!.Track.Name);
-
+            string? placeholder = Viz.SetDrivers(Data.Competition.Participants);
+            Viz.Main(Data.CurrentRace);
+            // Viz.DrawTrack(indi500);
+            Data.CurrentRace.Start();
+            
+            
             for (; ;)
             {
                 Thread.Sleep(100);

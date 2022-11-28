@@ -1,13 +1,10 @@
 ﻿using System.Collections;
 using System.ComponentModel.Design;
-using System.Security.AccessControl;
-using System.Threading.Channels;
 using Model;
 namespace Controller;
 
 public static class Data
 {
-    
     public static Competition? Competition { get; set; }
     public static Race? CurrentRace { get; set; }
 
@@ -79,6 +76,22 @@ public static class Data
     public static void NextRace()
     {
         Track nextTrack = Competition!.NextTrack();
+        Track indi500 = new Track("indi500",
+            new[]
+            {
+                SectionTypes.LeftCorner, 
+                SectionTypes.Straight,
+                SectionTypes.Finish,
+                SectionTypes.StartGrid,
+                SectionTypes.Straight,
+                SectionTypes.LeftCorner,
+                SectionTypes.LeftCorner,
+                SectionTypes.Straight,
+                SectionTypes.Straight,
+                SectionTypes.Straight,
+                SectionTypes.Straight,
+                SectionTypes.LeftCorner
+            });
         if (nextTrack == null)
         {
             Console.WriteLine("Wanna go again? Press Enter.");
@@ -91,6 +104,7 @@ public static class Data
         else
         {
             CurrentRace = new Race(nextTrack, Competition.Participants);
+            CurrentRace = new Race(indi500, Competition.Participants);
         }
         
         
